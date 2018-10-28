@@ -1,21 +1,24 @@
 # log-in-Screen
 ## Simple log-in screen for your android.
-  # Special Thanks to:
+  
+ # Special Thanks to:
      
  <span style="color=green">https://github.com/sababado/CircularView</span>
        
-       <span style="color=green"> https://github.com/florent37/DiagonalLayout</span>
+ <span style="color=green">https://github.com/florent37/DiagonalLayout</span>
        
-       <span style="color=green"> https://github.com/flavioarfaria/KenBurnsView</span>
+ <span style="color=green">https://github.com/flavioarfaria/KenBurnsView</span>
        
-       <span style="color=green"> https://github.com/Doctoror/ParticlesDrawable</span>
+ <span style="color=green">https://github.com/Doctoror/ParticlesDrawable</span>
        
-       <span style="color=green"> StackOverflow</span>
-       <span style="color=green"> Android arsenal</span>
-       <span style="color=green"> Google</span>
-       
-       
+ <span style="color=green">StackOverflow</span>
+ <span style="color=green">Android arsenal</span>
+ <span style="color=green">Google</span>
+ <span style="color=green">and you!</span>
 
+
+
+       
 <img src="https://i.imgur.com/cA3qzkn.gif"/>
 
 
@@ -257,9 +260,9 @@ public class LogIn extends Activity
 	}
 }
     
-    
+    ```
   
         // Finish run your application now.
         
      
-       
+  
