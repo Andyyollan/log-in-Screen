@@ -248,8 +248,8 @@ public class LogIn extends Activity
         // Finish run your application now.
         
        # Special Thanks to:
-       
-       ## https://github.com/sababado/CircularView
+       [CircularView]
+       (https://github.com/sababado/CircularView)
        
        ## https://github.com/florent37/DiagonalLayout
        
