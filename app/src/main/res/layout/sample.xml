@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:diagonal="http://schemas.android.com/apk/lib/com.app.chasebank"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:background="#ecede7"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:paddingTop="10dp">
+
+	<LinearLayout
+		android:background="#ecede7"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<com.github.florent37.diagonallayout.DiagonalLayout
+				android:layout_width="match_parent"
+				android:layout_height="300dp"
+				app:diagonal_angle="20"
+				app:diagonal_direction="left"
+				app:diagonal_position="bottom">
+
+				<com.flaviofaria.kenburnsview.KenBurnsView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:src="@drawable/test"/>
+
+			</com.github.florent37.diagonallayout.DiagonalLayout>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:background="#ecede7"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:paddingTop="10dp">
+
+			<com.doctoror.particlesdrawable.ParticlesView
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				app:minDotRadius="1.0dip"
+				app:maxDotRadius="3.0dip"
+				app:lineThickness="1.0dip"
+				app:lineDistance="86.0dip"
+				app:numDots="60"
+				app:dotColor="#ffffffff"
+				app:lineColor="#ffffffff"
+				app:frameDelayMillis="10"
+				app:stepMultiplier="1.0"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:layout_margin="5dp"
+				android:paddingTop="10dp">
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="This is a sample Log-in Screen!"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="xxx.xxx.xxx"
+						android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="xxx.xxx.xxx.xxx"
+						android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="xxx.xxx.xxx.xxx.xxx"
+						android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+				</LinearLayout>
+
+				<EditText
+					android:layout_width="250dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:id="@+id/editText"
+					android:hint="sample@owellsky-username"
+					android:typeface="monospace"
+					android:gravity="center"
+					android:layout_marginTop="100dp"/>
+
+				<EditText
+					android:layout_width="250dp"
+					android:inputType="textPassword"
+					android:layout_height="wrap_content"
+					android:ems="10"
+					android:id="@+id/editText2"
+					android:hint="sample@owellsky-password"
+					android:typeface="monospace"
+					android:gravity="center"/>
+
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="LOGIN"
+					android:id="@+id/button"
+					android:typeface="monospace"/>
+
+				
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="New Text"
+					android:id="@+id/textView3"
+					android:layout_alignTop="@+id/textView2"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentEnd="true"
+					android:layout_alignBottom="@+id/textView2"
+					android:layout_toEndOf="@+id/textview"
+					android:textSize="25dp"
+					android:layout_toRightOf="@+id/textview"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true">
+
+		<com.sababado.circularview.CircularView
+			android:id="@+id/circular_view"
+			android:layout_width="250dp"
+			android:layout_height="250dp"
+			app:centerBackgroundColor="#ecede7"
+			app:centerDrawable="@drawable/logo"
+			app:fitToCircle="true"
+			android:layout_marginBottom="180dp"
+			android:layout_marginRight="50dp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
