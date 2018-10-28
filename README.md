@@ -116,9 +116,10 @@ How to use:
 
 </RelativeLayout>
 
+
+
 //In your res/anim "alpha_translate.xml 
 //This is a combinatio of fade_in.xml and translate.xml.
-
 
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
@@ -133,6 +134,7 @@ How to use:
 </set>
 
 
+
 // In your res/values/styles and also values-v21
 
 <style name="AppTheme.NoActionBar">
@@ -142,6 +144,9 @@ How to use:
 		<item name="android:windowContentOverlay">@null</item>
 		<item name="android:background">@color/black1</item>
 	</style>
+  
+  
+  
   
   // In your Manifest.xml add this line.
   
@@ -155,6 +160,8 @@ How to use:
             </intent-filter>
         </activity>
         
+	
+	
         // Create java class to call
         
         import android.app.*;
