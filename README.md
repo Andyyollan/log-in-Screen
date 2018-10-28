@@ -14,7 +14,7 @@ https://www.tutorialspoint.com/android/android_login_screen.htm
 How to use:
 
 // In your res/layout/log_in.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
@@ -118,12 +118,12 @@ How to use:
 	</LinearLayout>
 
 </RelativeLayout>
-
+```
 
 
 //In your res/anim "alpha_translate.xml 
 //This is a combinatio of fade_in.xml and translate.xml.
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 	<alpha 
@@ -133,11 +133,11 @@ How to use:
 		android:duration="5000"/>
 	<translate xmlns:android="http://schemas.android.com/apk/res/android" android:duration="5000" android:zAdjustment="top" android:fromXDelta="0.0%" android:toXDelta="0.0%" android:fromYDelta="200.0%" android:toYDelta="0.0%" />
 </set>
-
+```
 
 
 // In your res/values/styles and also values-v21
-
+```
 <style name="AppTheme.NoActionBar">
 		<item name="windowNoTitle">true</item>
 		<item name="windowActionBar">false</item>
@@ -145,11 +145,11 @@ How to use:
 		<item name="android:windowContentOverlay">@null</item>
 		<item name="android:background">@color/black1</item>
 	</style>
-  
+  ```
   
   
   // In your Manifest.xml add this line.
-  
+  ```
   <activity
             android:name="org.network.owellsky.LogIn" 
 			android:theme="@style/AppTheme.NoActionBar" >
@@ -159,11 +159,11 @@ How to use:
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-      
+      ```
       
       
         // Create java class to call
-        
+        ```
         import android.app.*;
 import android.os.*;
 
@@ -242,7 +242,7 @@ public class LogIn extends Activity
 			});
 	}
 }
-        
+    ```    
         // Finish run your application now.
         
         Thanks to:
