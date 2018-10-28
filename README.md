@@ -1,8 +1,8 @@
 # log-in-Screen
 ## Simple log-in screen for your android.
   # Special Thanks to:
-      Link pages [CircularView]
-       (https://github.com/sababado/CircularView).
+     
+ <span style="color=green">https://github.com/sababado/CircularView</span>
        
        ## https://github.com/florent37/DiagonalLayout
        
