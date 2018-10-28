@@ -242,21 +242,20 @@ public class LogIn extends Activity
 			});
 	}
 }
-    ```    
     
     
-    
+  
         // Finish run your application now.
         
        Special Thanks to:
        
-       https://github.com/sababado/CircularView
+       [https://github.com/sababado/CircularView]
        
-       (https://github.com/florent37/DiagonalLayout)
+       [https://github.com/florent37/DiagonalLayout]
        
-       (https://github.com/flavioarfaria/KenBurnsView)
+       [https://github.com/flavioarfaria/KenBurnsView]
        
-       (https://github.com/Doctoror/ParticlesDrawable)
+       (https://github.com/Doctoror/ParticlesDrawable]
        
        > StackOverflow
        > Android arsenal
