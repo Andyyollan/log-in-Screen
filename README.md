@@ -128,9 +128,7 @@ How to use:
 		android:toAlpha="1.0"
 		android:interpolator="@android:anim/accelerate_interpolator"
 		android:duration="5000"/>
-
 	<translate xmlns:android="http://schemas.android.com/apk/res/android" android:duration="5000" android:zAdjustment="top" android:fromXDelta="0.0%" android:toXDelta="0.0%" android:fromYDelta="200.0%" android:toYDelta="0.0%" />
-
 </set>
 
 
