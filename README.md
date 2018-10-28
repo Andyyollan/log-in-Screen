@@ -5,3 +5,5 @@ Simple log-in screen for your android.
 Credits and Inspired by:
 
 https://www.tutorialspoint.com/android/android_login_screen.htm
+
+How to use:
