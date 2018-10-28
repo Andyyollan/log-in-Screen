@@ -147,7 +147,6 @@ How to use:
   
   
   
-  
   // In your Manifest.xml add this line.
   
   <activity
@@ -159,9 +158,9 @@ How to use:
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-	
-	
+      
+      
+      
         // Create java class to call
         
         import android.app.*;
@@ -182,7 +181,6 @@ import net.openvpn.openvpn.*;
 import android.widget.*;
 import android.view.animation.*;
 
-
 public class LogIn extends Activity 
 {
 
@@ -202,12 +200,10 @@ public class LogIn extends Activity
 		ImageView myImageView= (ImageView)findViewById(R.id.sample);
 		Animation myAlpha_TranslateAnimation = AnimationUtils.loadAnimation(this, R.anim.alpha_translate);
 		myImageView.startAnimation(myAlpha_TranslateAnimation);
-		
-		
+			
 		b1 = (Button)findViewById(R.id.button);
 		ed1 = (EditText)findViewById(R.id.editText);
 		ed2 = (EditText)findViewById(R.id.editText2);
-
 
 		tx1 = (TextView)findViewById(R.id.textView3);
 		tx1.setVisibility(View.GONE);
