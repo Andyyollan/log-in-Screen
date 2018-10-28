@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	
+	<com.doctoror.particlesdrawable.ParticlesView
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		app:minDotRadius="1.0dip"
+		app:maxDotRadius="3.0dip"
+		app:lineThickness="1.0dip"
+		app:lineDistance="86.0dip"
+		app:numDots="60"
+		app:dotColor="#ff19a7cb"
+		app:lineColor="#ff19a7cb"
+		app:frameDelayMillis="10"
+		app:stepMultiplier="1.0"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:gravity="center"
+		android:layout_margin="10dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Your banner"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="10dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Main layout"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</LinearLayout>
+
+</LinearLayout>
