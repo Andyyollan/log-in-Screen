@@ -1,6 +1,8 @@
 # log-in-Screen
 Simple log-in screen for your android.
-<img src="https://i.imgur.com/wfuORsl.gif"/>
+<img src="https://i.imgur.com/nIf7rlv.jpg"/>
+
+<img src="https://i.imgur.com/7cKmbiw.jpg"/>
 
 Credits and Inspired by:
 
