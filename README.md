@@ -4,15 +4,15 @@
      
  <span style="color=green">https://github.com/sababado/CircularView</span>
        
-       ## https://github.com/florent37/DiagonalLayout
+       <span style="color=green"> https://github.com/florent37/DiagonalLayout</span>
        
-       ## https://github.com/flavioarfaria/KenBurnsView
+       <span style="color=green"> https://github.com/flavioarfaria/KenBurnsView</span>
        
-       ## https://github.com/Doctoror/ParticlesDrawable
+       <span style="color=green"> https://github.com/Doctoror/ParticlesDrawable</span>
        
-       > StackOverflow
-       > Android arsenal
-       > Google
+       <span style="color=green"> StackOverflow</span>
+       <span style="color=green"> Android arsenal</span>
+       <span style="color=green"> Google</span>
        
        
 
