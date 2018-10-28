@@ -1,6 +1,20 @@
 # log-in-Screen
 ## Simple log-in screen for your android.
-
+  # Special Thanks to:
+      Link pages [CircularView]
+       (https://github.com/sababado/CircularView).
+       
+       ## https://github.com/florent37/DiagonalLayout
+       
+       ## https://github.com/flavioarfaria/KenBurnsView
+       
+       ## https://github.com/Doctoror/ParticlesDrawable
+       
+       > StackOverflow
+       > Android arsenal
+       > Google
+       
+       
 
 <img src="https://i.imgur.com/cA3qzkn.gif"/>
 
@@ -247,17 +261,5 @@ public class LogIn extends Activity
   
         // Finish run your application now.
         
-       # Special Thanks to:
-       [CircularView]
-       (https://github.com/sababado/CircularView)
-       
-       ## https://github.com/florent37/DiagonalLayout
-       
-       ## https://github.com/flavioarfaria/KenBurnsView
-       
-       ## https://github.com/Doctoror/ParticlesDrawable
-       
-       > StackOverflow
-       > Android arsenal
-       > Google
+     
        
