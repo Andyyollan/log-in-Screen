@@ -26,6 +26,9 @@
 
 
 
+<img src="https://i.imgur.com/7cKmbiw.jpg"/>
+
+
 
 Credits and Inspired by:
 
@@ -268,5 +271,5 @@ public class LogIn extends Activity
     ```
     
     
-     <img src="https://i.imgur.com/6lBlA9r.gif"/>
+     
   
