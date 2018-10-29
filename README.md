@@ -22,7 +22,8 @@
 <img src="https://i.imgur.com/cA3qzkn.gif"/>
 
 
-<img src="https://i.imgur.com/7cKmbiw.jpg"/>
+<img src="https://i.imgur.com/6lBlA9r.gif"/>
+
 
 Credits and Inspired by:
 
