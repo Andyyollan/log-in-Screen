@@ -12,8 +12,11 @@
  <span style="color=green">https://github.com/Doctoror/ParticlesDrawable</span>
        
  <span style="color=green">StackOverflow</span>
+ 
  <span style="color=green">Android arsenal</span>
+ 
  <span style="color=green">Google</span>
+ 
  <span style="color=green">and you!</span>
 
 
@@ -22,7 +25,6 @@
 <img src="https://i.imgur.com/cA3qzkn.gif"/>
 
 
-<img src="https://i.imgur.com/6lBlA9r.gif"/>
 
 
 Credits and Inspired by:
@@ -260,10 +262,11 @@ public class LogIn extends Activity
 			});
 	}
 }
-    
     ```
   
         // Finish run your application now.
-        
-     
+    ```
+    
+    
+     <img src="https://i.imgur.com/6lBlA9r.gif"/>
   
